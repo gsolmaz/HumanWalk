@@ -1,0 +1,35 @@
+
+	// input arguments	
+		isVisualizerOn= true;
+		isMoveByKeyboardInput =false;
+		 
+		totalSimulationTime = 36000; //10 hours
+		samplingTime= 10;
+		alphaValue =3.0;   // alfa value used in least action probabilities
+		nodeVelocity = 1; // 1 meter 
+		numberOfMobileNodes =2000; // will be 500
+		dimensionLength =1000;
+
+		// DBScan inputs
+		 epsilon= 30;
+		 minNumberOfNeighbourPoints = 8;
+		 expectedNumberOfClusters=15;
+		 expectedProportionOfNoisePoints=0.1;
+
+		 
+		 waitingTimeInNoiseParetoAlphaValue = 1.5;
+		 minimumHangoutTime=7200; // 2 hours
+		 minimumWaitingTimeInNoisePoint= 30; // 30 seconds
+		 
+		 // service rates
+		 restaurantServiceRatePerOneMinute = 5; // 5 service (1 costumer) in 1 minute
+		 rideServiceRatePerOneMinute = 2; // one service (40 costumer )  in 2 minutes 
+		 mediumRideServiceRatePerOneMinute = 0.5; // one service (20 costumer )  in 2 minutes 
+		 liveShowServiceRatePerOneMinute = 0.2; // one service (20 costumer) in 5 minutes 
+		
+		 // number of people per services
+		 rideNumberOfPeoplePerService = 40;
+		 mediumRideNumberOfPeoplePerService= 20;
+		 liveShowNumberOfPeoplePerService = 20;
+		 restaurantNumberOfPeoplePerService	= 1;
+	
